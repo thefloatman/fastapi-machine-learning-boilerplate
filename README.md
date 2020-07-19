@@ -46,8 +46,8 @@ or
 
 ```bash
 curl -X POST --header "Accept: application/json" --header "Content-Type: application/json" -d "{
-  \"image_link\": \"https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500\"
-}" "http://localhost:8000/detect"
+  \"sentence\": \"Everyone is good\"
+}" "http://localhost:8000/analyze"
 ```
 
 ## Contributing

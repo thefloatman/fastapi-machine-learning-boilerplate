@@ -5,8 +5,8 @@ class SentimentAnalyzer:
 	def __init__(self, sentence):
 		self.sentence = sentence
 
-	def detect(self):
+	def analyze(self):
 		analyser = SentimentIntensityAnalyzer()
-    score = analyser.polarity_scores(sentence)
-    
+		score = analyser.polarity_scores(self.sentence)
+		
 		return score

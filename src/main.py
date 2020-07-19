@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
-from .sentiment_analyzer import FaceDetector
+from .sentiment_analyzer import SentimentAnalyzer
 from .request_body import SentimentAnalysisRequest
 from .response_body import SentimentAnalysisResponse
 
@@ -31,8 +31,8 @@ def fastapi_app():
 
     @app.post('/analyze', response_model=SentimentAnalysisResponse)
     def post_sentiment_analysis(request_body: SentimentAnalysisRequest):
-      face_data = FaceDetector(request_body.image_link).detect()
-      response = SentimentAnalysisResponse(result=face_data)
+      result = SentimentAnalyzer(request_body.sentence).analyze()
+      response = SentimentAnalysisResponse(result=result)
       return response
 
     return app

@@ -1,14 +1,16 @@
-# Face Detection
+# FastAPI + Machine Learning Boilerplate
 
-## Getting Started
+I learn how to stucture a coding project from zero
 
-This is my full stack machine learning project
+## What is inside?
+
+Boilerplate to build Machine Learning API with FastAPI
 
 ### Prerequisites
 
 What things you need to use it
 
-```
+```bash
 1. Uvicorn + FastApi
 2. Vader
 
@@ -16,7 +18,7 @@ What things you need to use it
 
 ## Deployment
 
-Already Deploy to [this link](https://sonos-app.netlify.app)
+Already Deploy to [Heroku](www.heroku.com)
 
 ## How to Run it in Local
 
@@ -52,22 +54,10 @@ curl -X POST --header "Accept: application/json" --header "Content-Type: applica
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/rainoverme002/sonos-project) for details on our code of conduct, and the process for submitting pull requests to us.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Authors
-
-[rainoverme002](https://github.com/rainoverme002)
-
-See also the list of [contributors](https://github.com/rainoverme002/sonos-project) who participated in this project.
+Please make sure to update tests as appropriate.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Thanks for all of the contribution from the republic of internet
-
-## Quotes of the Day
-
-* Stay learning and you will get what you want
+[MIT](https://choosealicense.com/licenses/mit/)

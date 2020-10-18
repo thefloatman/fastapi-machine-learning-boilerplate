@@ -1,7 +1,7 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 
-class SentimentAnalyzer:
+class SentimentAnalysisModel:
 	def __init__(self, sentence):
 		self.sentence = sentence
 

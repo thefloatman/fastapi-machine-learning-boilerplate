@@ -8,8 +8,6 @@ Boilerplate to build Machine Learning API with FastAPI
 
 ### Prerequisites
 
-What things you need to use it
-
 ```bash
 1. Uvicorn + FastApi
 2. Vader

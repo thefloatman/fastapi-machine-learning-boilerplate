@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER I Gusti Bagus A
+MAINTAINER whitequbits
 
 ADD ./src
 ADD ./requirements.txt /

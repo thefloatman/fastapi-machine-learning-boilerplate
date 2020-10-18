@@ -3,14 +3,14 @@ version: '3.6'
 services:
 
   # Backend API
-  face-detection-api:
-    container_name: face-detection-api
+  api:
+    container_name: api
     env_file:
       - ./.env
     build: ./
-    working_dir: /usr/src/face-detection-api
+    working_dir: /usr/src/api
     command: uvicorn src.main:app --port 8000
     ports:
       - "8000:5000"
     volumes:
-      - ./:/usr/src/face-detection-api
+      - ./:/usr/src/api
